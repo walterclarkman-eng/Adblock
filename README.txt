@@ -1,4 +1,4 @@
-TOTAL ADBLOCK REVIEW SITE - SETUP NOTES
+CLEANBROWSES - TOTAL ADBLOCK REVIEW SITE
 
 FILES
   index.html                 Landing page (review + call to action)
@@ -8,19 +8,25 @@ FILES
   terms.html                 Terms of use
   affiliate-disclosure.html  Affiliate disclosure
 
-BEFORE YOU PUBLISH
-1. Search all files for "[" and replace every bracketed placeholder,
-   e.g. [YOUR SITE NAME], [PRICE], [X.X], [CONTACT EMAIL], [YOUR COUNTRY],
-   [YOUR ADDRESS FOR LEGAL NOTICES].
-2. privacy.html and terms.html also use "domain.com", "(Company name)",
-   "(COMPANY NAME)", "info@EMAIL.com" and "(EMAIL)" - replace those too.
-3. In index.html, replace every https://secure.totaladblock.com/ link
-   with your own affiliate tracking link (keep rel="sponsored nofollow").
-4. Write the verdict section from your own testing.
-5. Add a cookie consent banner (e.g. Cookiebot, CookieYes, Termly)
-   before adding Google Ads conversion tracking or Analytics.
+ALREADY FILLED IN
+  Site name: CleanBrowses
+  Email: info@cleanbrowses.com
+  Country: United States
+  Published / updated: September 2026
+  Rating: 4.7 / 5
+  Pricing: $19 first year, renews $99.00/year (~$8.25/mo), 30-day refund
+  Browsers: Chrome, Edge, Safari, Firefox
+
+STILL TO DO BEFORE / AFTER LAUNCH
+  1. Affiliate link: replace every https://secure.totaladblock.com/ in
+     index.html with your own Total Adblock tracking link
+     (keep rel="sponsored nofollow noopener").
+  2. Address: fill [STREET AND NUMBER], [CITY, POSTCODE] and [PHONE NUMBER]
+     in contact.html, [ADDRESS] in index.html footer, and
+     [YOUR ADDRESS FOR LEGAL NOTICES] in terms.html.
+  3. Verify the $19 / $99 prices match what your affiliate checkout shows.
+  4. Add a cookie consent banner before enabling Google Ads tracking/Analytics.
 
 HOSTING
-Upload all six .html files to the root folder of your domain.
-Works on any static host (Netlify, Vercel, Cloudflare Pages,
-GitHub Pages, or regular shared hosting). Use HTTPS.
+  Upload all six .html files to the repo root. Autodeploy is on, so each
+  push redeploys the DigitalOcean app.
